@@ -1,7 +1,23 @@
 aid: punchd
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/punchd.png
 name: Punchd
-description: Punchd is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Punchd was a mobile customer-loyalty rewards application for small businesses, founded in
+  2009 at Cal Poly San Luis Obispo by Reed Morse and Grantland Chew, that let merchants run digital
+  punch-card loyalty programs. Google acquired the company in June 2011 and retired the product in June
+  2013, folding features into other Google products. The getpunchd.com domain now serves only a static
+  Google-hosted closure announcement. The company is defunct with no active product, developer program,
+  or public API surface; this profile is retained for network completeness as a historical record.
 url: https://raw.githubusercontent.com/api-evangelist/punchd/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +27,18 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Loyalty
+- Rewards
+- Mobile
+- Small Business
+- Defunct
+- Acquired
+x-status: defunct
+x-status-reason: acquired-by-google-2011-retired-2013
+x-api-surface: none
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,8 @@ maintainers:
 common:
 - type: Website
   url: https://getpunchd.com
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
